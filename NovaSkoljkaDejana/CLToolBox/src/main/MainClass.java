@@ -22,7 +22,6 @@ public class MainClass
 		// parsiranje property fajlova	ovaj kod prolazi kroz strukturu ovih fajlova
 		
 		ArrayList<PropertyDataStructure> pathList = PropertyParser.parse();
-
 		// ispisivanje menija
 		try (Scanner scanner = new Scanner(new BufferedInputStream(System.in)))
 		{
